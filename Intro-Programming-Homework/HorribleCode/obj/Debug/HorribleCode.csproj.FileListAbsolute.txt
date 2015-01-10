@@ -1,0 +1,5 @@
+D:\TelerikAcademy\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.exe.config
+D:\TelerikAcademy\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.exe
+D:\TelerikAcademy\Intro-Programming-Homework\HorribleCode\bin\Debug\HorribleCode.pdb
+D:\TelerikAcademy\Intro-Programming-Homework\HorribleCode\obj\Debug\HorribleCode.exe
+D:\TelerikAcademy\Intro-Programming-Homework\HorribleCode\obj\Debug\HorribleCode.pdb
