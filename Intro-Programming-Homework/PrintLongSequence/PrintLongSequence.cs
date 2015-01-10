@@ -13,6 +13,7 @@ namespace PrintLongSequence
             for (int i = 2; i < 1003; i++)
             {
                 Console.WriteLine(i*Math.Pow(-1,i));
+
             }
         }
     }

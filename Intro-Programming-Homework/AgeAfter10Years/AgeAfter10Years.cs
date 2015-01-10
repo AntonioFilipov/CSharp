@@ -8,34 +8,23 @@ namespace AgeAfter10Years
 {
     class AgeAfter10Years
     {
-        static int Main(string[] args)
+        static void Main(string[] args)
         {
             DateTime birthday = DateTime.Parse(Console.ReadLine());
             DateTime now = DateTime.Now;
             int compare = DateTime.Compare(birthday, now);
-            int result = 0;
             if (compare > 0)
             {
                 Console.WriteLine("You are not born!");
             }
             else
             {
-                if (now.Month > birthday.Month)
-                {
-                    result = now.Year - birthday.Year;
-                }
-                else if (now.Month == birthday.Month && now.Day >= birthday.Day)
-                {
-                    result = now.Year - birthday.Year;
-                }
-                else
-                    result = now.Year - birthday.Year - 1;
-            }
-            Console.WriteLine("You are {0} years old!",result);
-            Console.WriteLine("After 10 years you will be {0} years old", result + 10);
-            return result;
 
-           
+                TimeSpan result = now.Subtract(birthday);
+                Console.WriteLine("You are {0} years old!",(int)result.TotalDays/365);
+                Console.WriteLine("After 10 years you will be {0} years old", (int)result.TotalDays / 365 + 10);
+            }
+                 
         }
     }
 }
