@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _08.CurrentDateAndTime
 {
-    class Program
+    class CurrentDateAndTime
     {
         static void Main(string[] args)
         {
